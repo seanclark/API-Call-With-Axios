@@ -6,7 +6,7 @@ import Container from '@material-ui/core/Container';
 function App() {
 return (
   <React.Fragment>
-      <CssBaseline />
+        <CssBaseline />
       {
         <Container maxWidth="sm">
          <h1>POST SEARCH</h1>
