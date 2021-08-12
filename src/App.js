@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+//import './App.css';
+import FetchData from './FetchData';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
 
 function App() {
+return (
+  <React.Fragment>
+      <CssBaseline />
+      {
+        <Container maxWidth="sm">
+         <h1>POST SEARCH</h1>
+        <FetchData />
+        </Container>
+      }
+    </React.Fragment>
+   )
+  } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*axios.defaults.baseURL = "https://reqres.in/api";
+  const getData = ()=> {
+  axios.get("/users")
+  .then(res => console.log(res.data.data));
+  }
+  const postData = () => {
+  axios.post("/users")
+  .then((res) => console.log(res))
+  .catch((res) => console.log(res));
+  } 
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+      <h1>User Directory</h1>
+      <button onClick = {getData}>Get User Records</button>
+      <button onClick = {postData}>Post New Record</button>
+       </div>
+  )
+  }*/
 export default App;
