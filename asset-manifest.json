@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/React-API-Call-With-Axios/static/js/main.c5252530.chunk.js",
+    "main.js.map": "/React-API-Call-With-Axios/static/js/main.c5252530.chunk.js.map",
+    "runtime-main.js": "/React-API-Call-With-Axios/static/js/runtime-main.0625a3b8.js",
+    "runtime-main.js.map": "/React-API-Call-With-Axios/static/js/runtime-main.0625a3b8.js.map",
+    "static/js/2.3163cfc7.chunk.js": "/React-API-Call-With-Axios/static/js/2.3163cfc7.chunk.js",
+    "static/js/2.3163cfc7.chunk.js.map": "/React-API-Call-With-Axios/static/js/2.3163cfc7.chunk.js.map",
+    "static/js/3.6fbadce5.chunk.js": "/React-API-Call-With-Axios/static/js/3.6fbadce5.chunk.js",
+    "static/js/3.6fbadce5.chunk.js.map": "/React-API-Call-With-Axios/static/js/3.6fbadce5.chunk.js.map",
+    "index.html": "/React-API-Call-With-Axios/index.html",
+    "static/js/2.3163cfc7.chunk.js.LICENSE.txt": "/React-API-Call-With-Axios/static/js/2.3163cfc7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0625a3b8.js",
+    "static/js/2.3163cfc7.chunk.js",
+    "static/js/main.c5252530.chunk.js"
+  ]
+}
