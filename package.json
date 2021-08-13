@@ -1,5 +1,6 @@
 {
   "name": "api-call-app",
+  "homepage": "https://seanclark.github.io/React-API-Call-With-Axios/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
