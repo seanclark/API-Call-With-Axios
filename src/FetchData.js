@@ -25,10 +25,10 @@ const FetchData = () => {
     const handleClick = () => {
         setIdFromButton(id)
     }
-    const handleKeypress = e => {
-        if(e.keycode === 13) {
-            handleClick()
-        } 
+    const handleKeyPress = e => {
+        if(e.key === 'Enter'){
+          handleClick()
+        }
     }
     const handleChange = e => {
         setId(e.target.value)
@@ -37,7 +37,7 @@ const FetchData = () => {
     <div>
         <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
-                <TextField
+            <TextField
                 autoComplete="off"
                 name="enter"
                 variant="outlined"
@@ -49,7 +49,7 @@ const FetchData = () => {
                 type = "text" 
                 value = {id} 
                 onChange = {handleChange} 
-                onKeyPress = {handleKeypress}
+                onKeyDown = {handleKeyPress}
               />
             </Grid>
         </Grid>
